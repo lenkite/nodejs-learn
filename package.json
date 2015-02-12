@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-learn",
+  "version": "1.0.0",
+  "description": "NodeJs Learning with ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "6to5 -s -m common src/js/ -d public/js",
+    "watch": "6to5 -w -s -m common src/js/ -d public/js"
+  },
+  "keywords": [
+    "nodejs",
+    "es6",
+    "learn"
+  ],
+  "author": "Tarun R Elankath <dev@elankath.com> (https://github.com/lenkite/)",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^0.13.0",
+    "yargs": "^2.3.0"
+  }
+}

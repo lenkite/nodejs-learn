@@ -26,3 +26,9 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# do not check in generated directory
+public
+
+#intellij directory omitted
+.idea
